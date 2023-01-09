@@ -1,5 +1,5 @@
 import "./App.css";
-import Image from "./assets/1.png";
+import Image from "./assets/13.png";
 
 function App() {
   return (
@@ -8,10 +8,10 @@ function App() {
         <img
           src={Image}
           alt="fire fox from fableverse"
-          style={{ height: "120px", padding: 0, margin: 0, marginTop: "20px" }}
+          style={{ height: "200px", padding: 0, margin: 0, marginTop: "20px" }}
         />
         <h1
-          style={{ margin: 0, padding: 0, fontSize: "84px", fontWeight: "600" }}
+          style={{ margin: 0, padding: 0, fontSize: "84px", fontWeight: "800" }}
         >
           FABLEVERSE
         </h1>
@@ -20,24 +20,21 @@ function App() {
             margin: 0,
             padding: 0,
             fontWeight: "100",
-            fontSize: "16px",
-            maxWidth: "600px",
+            fontSize: "24px",
+            maxWidth: "800px",
             marginBottom: "20px",
           }}
         >
-          Epic creature-collecting and battling game! Explore, capture, breed,
-          and battle your way to the top. Join us on Discord for updates and
-          behind-the-scenes content!
+          An epic creature-collecting and battling, incremental game! Explore,
+          capture, breed, and battle your way to the top. Train your skills and
+          improve your operations. Join us on Discord for updates and
+          behind-the-scenes content or wishlist it today!
         </h2>
-        <iframe
-          title="discord join"
-          src="https://discord.com/widget?id=1046655361878339634&theme=dark"
-          width="350"
-          height="500"
-          allowtransparency="true"
-          frameborder="0"
-          sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
-        ></iframe>
+        <img
+          src="https://outbrkgame.files.wordpress.com/2021/06/button-wishlist-768x195-1.png"
+          alt="steam wishlist now"
+          style={{ width: "300px" }}
+        />
       </center>
     </div>
   );
